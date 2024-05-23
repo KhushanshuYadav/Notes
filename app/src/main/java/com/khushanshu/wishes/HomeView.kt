@@ -124,7 +124,7 @@ fun HomeView(navController: NavController,viewModel: WishViewModel){
                         }
                     } ,
                     directions = setOf(DismissDirection.EndToStart),
-                    dismissThresholds ={FractionalThreshold(0.25f)},
+                    dismissThresholds ={FractionalThreshold(1f)},
                     dismissContent = {
 
                         WishItem(wish=wish) {
