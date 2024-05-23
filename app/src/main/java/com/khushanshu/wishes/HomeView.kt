@@ -63,7 +63,7 @@ fun HomeView(navController: NavController,viewModel: WishViewModel){
     Scaffold(
         scaffoldState = scaffoldState,
 
-        topBar ={ AppBarView(title = "WishList") },
+        topBar ={ AppBarView(title = "Notes") },
 
         backgroundColor = Color.Black,  //TODO change later
 

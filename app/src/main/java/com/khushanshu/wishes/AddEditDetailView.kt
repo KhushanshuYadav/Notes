@@ -113,7 +113,7 @@ fun AddEditDetailView(id:Long, viewModel: WishViewModel,navController: NavContro
                         else{
                             // wish in database
                             viewModel.addWish( Wish( title=viewModel.wishTitleState.trim(), description = viewModel.wishDescriptionState.trim() ) )
-                            snackMessage.value="Wish created"
+                            snackMessage.value="Note created"
                         }
 
 
@@ -129,7 +129,7 @@ fun AddEditDetailView(id:Long, viewModel: WishViewModel,navController: NavContro
                     }
                     else{
 
-                        snackMessage.value="Enter the title and description to create wish"
+                        snackMessage.value="Enter the title and description to create note"
                         scope.launch {
                             //showing snackBar in the scaffold state
                             scaffoldState.snackbarHostState.showSnackbar(snackMessage.value);
