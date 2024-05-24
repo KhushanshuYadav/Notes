@@ -47,7 +47,7 @@ fun AppBarView(title:String,onBackNavClicked: () -> Unit={} ){
                 .heightIn(max = 24.dp))
         },
 
-        elevation = 3.dp,
+        elevation = 5.dp,
         backgroundColor = colorResource(id = R.color.app_bar_color),
         navigationIcon = navigationIcon
 

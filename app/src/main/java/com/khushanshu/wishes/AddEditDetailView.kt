@@ -78,7 +78,7 @@ fun AddEditDetailView(id:Long, viewModel: WishViewModel,navController: NavContro
             AppBarView(  title =  if(id!=0L) stringResource(id = R.string.update_wish) else stringResource(id =R.string.add_wish)    )
             {navController.navigateUp()}
         },
-        backgroundColor =  Color.White,
+        backgroundColor =  Color.Black,
         scaffoldState=scaffoldState  //giving the state of scaffold to it
     )
     {
@@ -178,14 +178,14 @@ fun WishTextField(label:String, value:String,  onValueChanged: (String)->Unit ){
             .fillMaxWidth()
             .padding(16.dp) ,
         colors = OutlinedTextFieldDefaults.colors(
-            focusedTextColor = Color.Black,
-            unfocusedTextColor = Color.Black,
+            focusedTextColor = Color.White,
+            unfocusedTextColor = Color.White,
 
-            focusedBorderColor = Color.Black,
-            unfocusedBorderColor = Color.Black,
-            cursorColor = Color.Black,
-            focusedLabelColor =  Color.Black,
-            unfocusedLabelColor = Color.Black,
+            focusedBorderColor = Color.White,
+            unfocusedBorderColor = Color.White,
+            cursorColor = Color.White,
+            focusedLabelColor =  Color.White,
+            unfocusedLabelColor = Color.White,
 
             ),
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text, capitalization = KeyboardCapitalization.Sentences)
