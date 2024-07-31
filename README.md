@@ -25,6 +25,8 @@ Native Android Application that allows users to create, update,and store notes.
 
 
 ## Screenshots
+![Screenshot_2024-07-31-21-28-27-45_20db2e132b86972d434dbc1007426f15](https://github.com/user-attachments/assets/1178af04-6ead-4b77-b46a-651605215f01)
+
 
 
 
