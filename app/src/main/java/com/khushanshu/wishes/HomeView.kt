@@ -45,6 +45,7 @@ import androidx.compose.material.*
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.navigation.NavController
 import com.khushanshu.wishes.data.Wish
 import java.util.Locale
@@ -163,7 +164,8 @@ fun WishItem(wish:Wish,onClick : () -> Unit){
 
             Text(text = wish.title, fontWeight = FontWeight.ExtraBold)
 
-            Text(text = wish.description,)
+            Text(text = wish.description,maxLines = 2, // Limit to 2 lines
+                overflow = TextOverflow.Ellipsis, )
 
         }
 
